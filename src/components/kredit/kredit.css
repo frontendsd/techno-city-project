@@ -1,0 +1,221 @@
+*,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+/* .container{
+    padding: 0px 60px;
+      max-width: 1300px;
+      width: 100%;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 0 auto;
+  } */
+
+.kredit-title {
+    color: #0091D0;
+    font-size: 80px;
+    width: 820px;
+    line-height: 100px;
+    opacity: 0.8;
+    margin-bottom: 110px;
+}
+
+.kredit {
+  overflow: hidden;
+}
+
+.kredit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kredit-button {
+    padding: 15px 25px;
+    font-size: 19px;
+    background-color: #0091D0;
+    border:2px solid #0091D0;
+    color:#fff;
+    border-radius: 9px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.kredit-img {
+  margin: 0;
+  padding: 0;
+}
+
+.kredit-button:hover {
+  background-color: #fff;
+  color:#0091D0;
+}
+
+.kredit-button:active {
+  opacity: 0.5;
+  background-color:#0091D0;
+  color:#fff;
+}
+
+.kredit-img {
+  /* position: relative; */
+  right: 250px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.kredit-item-img {
+  margin: 0;
+  padding: 0;
+}
+
+.qadamlar-sarlavha{
+  color:#0A9EDF;
+  font-size: 50px;
+  letter-spacing: 7px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  margin-left: auto;
+}
+
+.qadamlar-title{
+  font-size: 30px;
+  color:rgb(61, 60, 60);
+  opacity: 0.9;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.qadamlar-text {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.qadamlar-container:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.qadamlar-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qadamlar-title-style {
+  color:#0091D0;
+  margin-top: 50px;
+}
+
+.boglanish-sarlavha {
+  color: #0091D0;
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+/* FORM */
+.boglanish-form {
+  background: #0091D0;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  color:#fff;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:15px;
+
+}
+
+.boglanish-input-style {
+  background:#0091D0;
+  color:#fff;
+  border:1.5px solid #fff;
+  font-size: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius:9px;
+}
+
+.boglanish-input-style2 {
+  padding-left: 40px;
+  width: 26%;
+}
+
+.boglanish-input-style1 {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.boglanish-form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boglanish-form-container:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+.boglanish-form-button {
+  padding: 12px;
+  width: 25.8%;
+  border:none;
+  font-size: 20px;
+  border:1.5px solid #fff;
+  color:#0091D0;
+  border-radius:9px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.boglanish-form-button:hover {
+  background:#0091D0;
+  color:#fff;
+}
+
+.boglanish-form-button:active {
+    opacity: 0.8;
+    background-color: #fff;
+    color: #0A9EDF;
+}
+
+.boglanish-form-button:active {
+  outline: none;
+}
+
+.boglanish-input-style{
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.hamkorlar-sarlavha {
+  text-align: center;
+  color:#0091D0;
+  font-size: 70px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.hamkorlar {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.hamkorlar-link:not(:last-child) {
+  margin-right: 150px;
+}
