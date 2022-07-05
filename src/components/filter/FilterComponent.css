@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .filter__component {
     width: 100%;
     margin-top: 0;
@@ -41,6 +47,9 @@
     padding: 20px 40px 20px 20px;
     color: #fff;
 }
+.form__control input[type=text]::placeholder {
+    font-size: 15px;
+}
 
 .form__control select {
     outline: none;
@@ -49,10 +58,12 @@
     color: #fff;
     padding: 20px 40px 20px 20px;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 .form__control select option {
     background: #0A9EDF;
+    font-size: 20px;
 }
 
 .filter__link {
@@ -285,6 +296,7 @@
     color: #fff;
     margin-bottom: 20px;
 }
+
 
 
 

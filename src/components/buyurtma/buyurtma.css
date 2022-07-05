@@ -1,0 +1,183 @@
+*,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+
+.buyurtma-container {
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    margin-top: 30px;
+    gap: 150px;
+}
+
+
+.buyurtma-sarlavha {
+    color: #0A9EDF;
+    font-size: 65px;
+    margin-left: 5px;
+    margin-bottom: 35px;
+}
+
+.tolov-sarlava {
+    color: #0A9EDF;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.buyurtma-label-style {
+    display: block;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.buyurtma-input-style {
+    width: 75%;
+    padding: 0 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid #7C7C7C;
+border-radius: 6px;
+margin-bottom: 26px;
+}
+
+.buyurtma-sarlavha2 {
+    font-size: 50px;
+}
+
+.buyurtmangiz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyurtmangiz-sarlavha {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.buyurtmangiz-text {
+    font-weight: 600;
+    font-size: 35px;
+    color: #0A9EDF;
+}
+
+
+.buyurtma-label-style::placeholder,
+.buyurtma-input-style::placeholder {
+    color:#7C7C7C;
+}
+
+.buyurtma-input-style:focus {
+    outline:none;
+}
+
+.tolash-container {
+    display: flex;
+    align-items:center;
+    max-width: 75%;
+    justify-content: space-between;
+}
+
+.plastik-karta {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #7C7C7C;
+    border-radius: 6px;
+    font-weight: 700;
+    color:#7C7C7C;
+
+}
+
+.tolash-button {
+width: 40%;
+padding: 10px;
+border: 1.5px solid #0A9EDF;
+border-radius: 6px;
+background-color: #0A9EDF;
+font-weight: 500;
+color:red;
+color:#fff;
+font-size: 20px;
+font-weight: 600;
+}
+
+.tolash-button:hover {
+    background-color:#fff;
+    color:#0A9EDF;
+}
+
+.tolash-button:active {
+    background-color: #0A9EDF;
+    color:#fff;
+    opacity: 0.5;
+}
+
+
+.tolash-bottom-text {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-top: 50px;
+    line-height: 22px;
+}
+
+.buyurtmangiz-bottom-text {
+    margin-top: 10px;
+}
+
+.buyurtma-img-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buyurtma-img {
+    margin: 0;
+    padding: 0;
+}
+
+.buyurtma-bottom-container {
+display: flex;
+justify-content: space-between;
+margin: 0;
+padding: 0;
+margin-top: 25px;
+}
+
+.buyurtma-bottom-btn {
+    background-color: #0A9EDF;
+    color:#fff;
+    padding: 7px 50px;
+    border-radius:6px;
+    border:1.5px solid #0A9EDF;
+    font-size: 20px;
+}
+
+.buyurtma-bottom-btn:hover {
+    background-color:#fff;
+    color:#0A9EDF;
+
+}
+
+.buyurtma-bottom-btn:active {
+    background-color: #0A9EDF;
+    color:#fff;
+    opacity: 0.5;
+}
+
+.buyurtma-bottom-text {
+    color: #0A9EDF;
+    font-size: 30px;
+    font-weight: 600;
+    font-weight: 600;
+}   

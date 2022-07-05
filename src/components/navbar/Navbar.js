@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import search from '../../assets/search.svg'
+import saves from '../../assets/saves.svg'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -16,15 +17,23 @@ function Navbar() {
           {/* item */}
           <div className="navbar__item">
               <Link to='/' className='navbar__item-child'>Bosh sahifa</Link>
-              <Link to='/' className='navbar__item-child'>Bizning maxsulotlar</Link>
+              <Link to='/BizningMaxsulotlar' className='navbar__item-child'>Bizning maxsulotlar</Link>
               <Link to='/Kredit' className='navbar__item-child'>Kredit orqali</Link>
+              <Link to='/BizHaqimizda' className='navbar__item-child'>Biz haqimizda</Link>
           </div>
 
           {/* search */}
           <form action="" className='form__control-nav'>
               <input type="text" placeholder="Qidiruv..." className='input'/>
               <img src={search} alt="" />
-          </form>
+              </form>
+              
+              {/* saves */}
+              <div className="saves">
+                  <Link to='/Save'>
+                    <img src={saves} alt="" />
+                  </Link>
+              </div>
 
           {/* language */}
           <div className="language">

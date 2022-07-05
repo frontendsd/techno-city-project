@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+*,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+
+.maxsus-furgon-sarlavha {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.maxsus-furgon-text {
+    font-size: 20px;
+}
+.batafsil-img {
+    margin: 0;
+    padding: 0;
+}
+
+
+.reja-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.batafsil-img-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.batafsil__btn {
+    display: flex;
+    outline: none;
+    background: #0A9EDF;
+    border-radius: 11px;
+    border: 2px solid #0A9EDF;
+    color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 18px 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: auto;
+    margin-top: 135px;
+}
+
+.batafsil__btn:hover {
+    border: 2px solid #0A9EDF;
+    background-color: #fff;
+    color: #0A9EDF;
+}
+
+.batafsil__btn:active {
+    border: 2px solid #0A9EDF;
+    background-color: #0A9EDF;
+    color: #fff;
+    opacity: 0.6;
+}

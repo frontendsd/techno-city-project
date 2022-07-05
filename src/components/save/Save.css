@@ -1,0 +1,128 @@
+.save-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save-content h2{
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 77px;
+  color: #0091D0;
+}
+
+.save-icons{
+    display: flex;
+    align-items: center;
+}
+
+.save-icons_item{
+    width: 30px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.save-icons_item:not(:last-child){
+    margin-right: 30px;
+}
+
+.save-icons_item:hover{
+    transform: scale(1.3);
+}
+
+.save-card{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.components__item {
+    padding: 10px;
+    width: 238px;
+    height: 310px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.components__item a{
+    text-decoration: none;
+}
+
+.components__item:hover {
+    transform: scale(1.1);
+}
+.components__item:hover .components__img{
+    transform: scale(1.4);
+}
+
+.components__img {
+    width: 80%;
+    height: 50%;
+    filter: drop-shadow(6.01498px 4.00999px 7.01748px rgba(0, 0, 0, 0.3));
+    transition: 0.5s ease;
+}
+
+
+
+.components__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.components__name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D2D2D;
+}
+
+.components__currency {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A9EDF;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+.components__btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    padding: 8px 42px;
+    background: #0A9EDF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 19px;
+    margin-bottom: 15px;
+    border: 2px solid #0A9EDF;
+    transition: .3s ease;
+}
+
+.components__btn:hover {
+    border: 2px solid #0A9EDF;
+    background-color: #fff;
+    color: #0A9EDF;
+}
+
+.components__btn:active {
+    border: 2px solid #0A9EDF;
+    background-color: #0A9EDF;
+    color: #fff;
+    opacity: 0.6;
+}

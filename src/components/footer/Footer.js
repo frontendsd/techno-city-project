@@ -28,11 +28,11 @@ const Footer = () => {
             <div className="footer-main">
                <h5 className='footer-title'>Menu</h5>
                <ul className="footer-list">
-                 <Link className='footer-list-item' to='/'>Bosh sahifa</Link>
-                 <Link className='footer-list-item' to="/">Mahsulotlarimiz</Link>
-                 <Link className='footer-list-item' to='/'>Kredit</Link>
-                 <Link className='footer-list-item' to='/'>Saqlanganlar</Link>
-                 <Link className='footer-list-item' to='/'>Biz haqimizda</Link>
+                 <Link to='/' className='footer-list-item'>Bosh sahifa</Link>
+                 <Link to='/BizningMaxsulotlar' className='footer-list-item'>Mahsulotlarimiz</Link>
+                 <Link className='footer-list-item' to='/Kredit'>Kredit</Link>
+                 <Link className='footer-list-item' to='/Save'>Saqlanganlar</Link>
+                 <Link className='footer-list-item' to='/BizHaqimizda'>Biz haqimizda</Link>
                </ul>
             </div>
             <div className="footer-main">

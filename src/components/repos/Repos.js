@@ -5,6 +5,7 @@ import Bars from '../../assets/bars.svg'
 import './Repos.css'
 import Image from '../../assets/image-d.png'
 import Vector2 from '../../assets/vector-2.svg'
+import { Link } from 'react-router-dom'
 
 const Repos = () => {
   return (
@@ -31,7 +32,9 @@ const Repos = () => {
                       <h4 className='results-content-value'>26 000 000 uzs</h4>
                     </div>
                     <p className='results-card-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus quam nec et at nibh gravida cras. Mollis sed facilisis tellus mauris, quis sed odio. Pharetra eget cras semper eget. Arcu lacus nunc arcu duis urna ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus quam nec et at nibh gravida cras......</p>
-                    <img src={Vector2} alt="" className='vector' />
+                    <Link to='/Saves'>
+                      <img src={Vector2} alt="" className='vector' />
+                    </Link>
                   </div>
               </div>
             </div>
